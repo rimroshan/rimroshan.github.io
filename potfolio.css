@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0; 
+    position: relative; 
+    color: white;
+
+}
+.page1 {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    /* background-image:radial-gradient(rgb(6, 6, 6)); */
+     background-image:url(./images/bg_user_image.png);
+     z-index: 1;
+}
+.page1 h1{
+    position: relative;
+    top: -10px;
+    left: 18px;
+    margin-bottom: 15px;
+}
+
+.left-section-page1 {
+    flex: 1;}
+
+.nav-bar{
+    margin: 0px;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.skill-container {
+    display: flex;
+}
+
+.page-title{
+    margin-bottom: 8;
+    font-weight: 50px;
+    color: rgb(219, 175, 29);
+}
+ .nav-bar h1{
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(215, 210, 178);
+    border-radius: 5px;
+    margin-right: 40px;
+    padding: 3px 20px 3px 9px;
+}
+ul li{
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    margin: 0px 40px ;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: underline;
+    text-overflow:4px ;
+}
+.nav-bar h1:hover{
+    background-color: aqua;
+
+
+}
+   
+
+
+
+.image{
+    width: 5px;
+    height: 8;
+    position: relative;
+    top: -500px;
+    left: 1200px;
+}
+.main1{
+    margin-top: 8px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: rgb(79, 74, 74);
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 50px;
+      font-size: 12px;   
+      font-weight: 1px;
+      color: white;
+}
+.main2{
+    margin-top: 8px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: rgb(79, 74, 74);
+    margin-right: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 1px;
+    color: white;
+    
+
+   
+}
+.main3{
+    margin-top: 8px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: rgb(79, 74, 74);
+    text-align: center;
+    margin-right: 50px;
+    font-size: 12px;
+    font-weight:1px;
+    color: white;
+   
+}
+.main4{
+    margin-top: 8px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: rgb(79, 74, 74);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight:1px; 
+}
+.left-section-page1{
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+
+}
+.right-sidebar{
+    position: relative;
+    top:300px ;
+}hr{
+    width: 20px;
+    position: relative;
+    top: 20px;
+    right: 20px;}
+.skill-container{
+    position: relative;
+    top: 280px;
+    right: 200px;
+}
+.skill-head{
+    position: relative;
+    bottom: 50px;
+    left: 600px;
+}
+.page2{
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.experience-container{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+.experience-leftside{
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.page2 h1{
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+.page3 {
+ background: black;
+}
+.testimonial{
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+.page3 h1{
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
